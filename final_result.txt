@@ -1,0 +1,608 @@
+After 50
+Accuracy for place 0.94
+Precision for Place is 0.267889908257
+Recall for Place is 0.297959183673
+FScore for Place is 0.282125603865
+
+
+Accuracy for Time 0.74
+Precision for Time is 0.308457711443
+Recall for Time is 0.366863905325
+FScore for Time is 0.335135135135
+
+
+Accuracy for Reason 0.74
+Precision for Reason is 0.045871559633
+Recall for Reason is 0.15625
+FScore for Reason is 0.0709219858156
+
+
+Accuracy for Participant 0.06
+Precision for Participant is 0.045643153527
+Recall for Participant is 0.366666666667
+FScore for Participant is 0.0811808118081
+
+
+Accuracy for Casualties 0.84
+Precision for Casualtie   is 0.117483074472
+Recall for Casualties  is 0.198252688172
+FScore for Casualties  is 0.147536884221
+
+
+Accuracy for  After-effects 0.1
+Precision for  After-effects is 0.0723981900452
+Recall for  After-effects is 0.25
+FScore for  After-effects is 0.112280701754
+
+
+---------------------------------------------------------------------
+After 100
+Accuracy for place 0.91
+Precision for Place is 0.252344416027
+Recall for Place is 0.29898989899
+FScore for Place is 0.273693943597
+
+
+Accuracy for Time 0.7
+Precision for Time is 0.269306930693
+Recall for Time is 0.413373860182
+FScore for Time is 0.326139088729
+
+
+Accuracy for Reason 0.7
+Precision for Reason is 0.0529032258065
+Recall for Reason is 0.16700610998
+FScore for Reason is 0.0803527682509
+
+
+Accuracy for Participant 0.07
+Precision for Participant is 0.0464743589744
+Recall for Participant is 0.308510638298
+FScore for Participant is 0.0807799442897
+
+
+Accuracy for Casualties 0.79
+Precision for Casualtie   is 0.113375025217
+Recall for Casualties  is 0.212959454339
+FScore for Casualties  is 0.147972617167
+
+
+Accuracy for  After-effects 0.14
+Precision for  After-effects is 0.0511210762332
+Recall for  After-effects is 0.179810725552
+FScore for  After-effects is 0.0796089385475
+
+
+---------------------------------------------------------------------
+After 150
+Accuracy for place 0.906666666667
+Precision for Place is 0.254275940707
+Recall for Place is 0.314527503526
+FScore for Place is 0.281210592686
+
+
+Accuracy for Time 0.666666666667
+Precision for Time is 0.276988636364
+Recall for Time is 0.408805031447
+FScore for Time is 0.330228619814
+
+
+Accuracy for Reason 0.666666666667
+Precision for Reason is 0.0484229231453
+Recall for Reason is 0.156160458453
+FScore for Reason is 0.0739233638522
+
+
+Accuracy for Participant 0.113333333333
+Precision for Participant is 0.054820415879
+Recall for Participant is 0.358024691358
+FScore for Participant is 0.0950819672131
+
+
+Accuracy for Casualties 0.793333333333
+Precision for Casualtie   is 0.114333519241
+Recall for Casualties  is 0.218958611482
+FScore for Casualties  is 0.150224420628
+
+
+Accuracy for  After-effects 0.14
+Precision for  After-effects is 0.0511475409836
+Recall for  After-effects is 0.174107142857
+FScore for  After-effects is 0.0790674100355
+
+
+---------------------------------------------------------------------
+After 200
+Accuracy for place 0.895
+Precision for Place is 0.258578431373
+Recall for Place is 0.32378516624
+FScore for Place is 0.287531228708
+
+
+Accuracy for Time 0.665
+Precision for Time is 0.286442405708
+Recall for Time is 0.421921921922
+FScore for Time is 0.341226472374
+
+
+Accuracy for Reason 0.665
+Precision for Reason is 0.0480029314767
+Recall for Reason is 0.146205357143
+FScore for Reason is 0.072275862069
+
+
+Accuracy for Participant 0.105
+Precision for Participant is 0.0629921259843
+Recall for Participant is 0.346456692913
+FScore for Participant is 0.106602059358
+
+
+Accuracy for Casualties 0.76
+Precision for Casualtie   is 0.111326651579
+Recall for Casualties  is 0.213165497317
+FScore for Casualties  is 0.146265486726
+
+
+Accuracy for  After-effects 0.145
+Precision for  After-effects is 0.0507276507277
+Recall for  After-effects is 0.169680111266
+FScore for  After-effects is 0.078104993598
+
+
+---------------------------------------------------------------------
+After 250
+Accuracy for place 0.888
+Precision for Place is 0.260246584472
+Recall for Place is 0.331353415359
+FScore for Place is 0.291526689063
+
+
+Accuracy for Time 0.676
+Precision for Time is 0.286746987952
+Recall for Time is 0.423487544484
+FScore for Time is 0.341954022989
+
+
+Accuracy for Reason 0.676
+Precision for Reason is 0.0515848353014
+Recall for Reason is 0.151459854015
+FScore for Reason is 0.0769587389893
+
+
+Accuracy for Participant 0.1
+Precision for Participant is 0.0609073958981
+Recall for Participant is 0.335616438356
+FScore for Participant is 0.103103629669
+
+
+Accuracy for Casualties 0.756
+Precision for Casualtie   is 0.107903128501
+Recall for Casualties  is 0.213542555006
+FScore for Casualties  is 0.143364250544
+
+
+Accuracy for  After-effects 0.14
+Precision for  After-effects is 0.048244174598
+Recall for  After-effects is 0.176682692308
+FScore for  After-effects is 0.0757927300851
+
+
+---------------------------------------------------------------------
+After 300
+Accuracy for place 0.87
+Precision for Place is 0.252819807428
+Recall for Place is 0.332489146165
+FScore for Place is 0.287232380059
+
+
+Accuracy for Time 0.67
+Precision for Time is 0.282171581769
+Recall for Time is 0.424823410696
+FScore for Time is 0.339105920258
+
+
+Accuracy for Reason 0.67
+Precision for Reason is 0.0554347826087
+Recall for Reason is 0.157407407407
+FScore for Reason is 0.0819935691318
+
+
+Accuracy for Participant 0.09
+Precision for Participant is 0.0637940682708
+Recall for Participant is 0.340298507463
+FScore for Participant is 0.107445805844
+
+
+Accuracy for Casualties 0.75
+Precision for Casualtie   is 0.11045971259
+Recall for Casualties  is 0.212722015696
+FScore for Casualties  is 0.145411764706
+
+
+Accuracy for  After-effects 0.15
+Precision for  After-effects is 0.0579058699101
+Recall for  After-effects is 0.19623655914
+FScore for  After-effects is 0.0894242547979
+
+
+---------------------------------------------------------------------
+After 350
+Accuracy for place 0.862857142857
+Precision for Place is 0.251124260355
+Recall for Place is 0.32436563742
+FScore for Place is 0.283084311633
+
+
+Accuracy for Time 0.68
+Precision for Time is 0.283185840708
+Recall for Time is 0.418482999128
+FScore for Time is 0.337790288529
+
+
+Accuracy for Reason 0.68
+Precision for Reason is 0.0529425130652
+Recall for Reason is 0.146448774356
+FScore for Reason is 0.0777703604806
+
+
+Accuracy for Participant 0.0942857142857
+Precision for Participant is 0.0670280926565
+Recall for Participant is 0.34
+FScore for Participant is 0.111980238781
+
+
+Accuracy for Casualties 0.757142857143
+Precision for Casualtie   is 0.11161745048
+Recall for Casualties  is 0.215812969925
+FScore for Casualties  is 0.147136563877
+
+
+Accuracy for  After-effects 0.145714285714
+Precision for  After-effects is 0.0751776300711
+Recall for  After-effects is 0.212848799481
+FScore for  After-effects is 0.111111111111
+
+
+---------------------------------------------------------------------
+After 400
+Accuracy for place 0.87
+Precision for Place is 0.250520183104
+Recall for Place is 0.320639147803
+FScore for Place is 0.281275551922
+
+
+Accuracy for Time 0.685
+Precision for Time is 0.286687631027
+Recall for Time is 0.420122887865
+FScore for Time is 0.340809968847
+
+
+Accuracy for Reason 0.685
+Precision for Reason is 0.0540048543689
+Recall for Reason is 0.148912437256
+FScore for Reason is 0.0792637672555
+
+
+Accuracy for Participant 0.0925
+Precision for Participant is 0.0669045495094
+Recall for Participant is 0.34965034965
+FScore for Participant is 0.112317484088
+
+
+Accuracy for Casualties 0.75
+Precision for Casualtie   is 0.112563895615
+Recall for Casualties  is 0.215425805787
+FScore for Casualties  is 0.147865422675
+
+
+Accuracy for  After-effects 0.1475
+Precision for  After-effects is 0.0816494845361
+Recall for  After-effects is 0.221105527638
+FScore for  After-effects is 0.119259147719
+
+
+---------------------------------------------------------------------
+After 450
+Accuracy for place 0.864444444444
+Precision for Place is 0.255023474178
+Recall for Place is 0.31937911571
+FScore for Place is 0.283596115694
+
+
+Accuracy for Time 0.673333333333
+Precision for Time is 0.287416587226
+Recall for Time is 0.407707910751
+FScore for Time is 0.337154039698
+
+
+Accuracy for Reason 0.673333333333
+Precision for Reason is 0.0540293040293
+Recall for Reason is 0.151983513653
+FScore for Reason is 0.0797189568977
+
+
+Accuracy for Participant 0.0955555555556
+Precision for Participant is 0.0717452640064
+Recall for Participant is 0.358870967742
+FScore for Participant is 0.119583473295
+
+
+Accuracy for Casualties 0.762222222222
+Precision for Casualtie   is 0.113705144834
+Recall for Casualties  is 0.216599560761
+FScore for Casualties  is 0.14912584659
+
+
+Accuracy for  After-effects 0.153333333333
+Precision for  After-effects is 0.0797852647168
+Recall for  After-effects is 0.217676767677
+FScore for  After-effects is 0.116770522894
+
+
+---------------------------------------------------------------------
+After 500
+Accuracy for place 0.866
+Precision for Place is 0.253766717454
+Recall for Place is 0.320436083796
+FScore for Place is 0.283230987246
+
+
+Accuracy for Time 0.674
+Precision for Time is 0.288992775181
+Recall for Time is 0.414887126297
+FScore for Time is 0.340681362725
+
+
+Accuracy for Reason 0.674
+Precision for Reason is 0.0560219567323
+Recall for Reason is 0.152728873239
+FScore for Reason is 0.0819749586582
+
+
+Accuracy for Participant 0.088
+Precision for Participant is 0.0696227148969
+Recall for Participant is 0.344894026975
+FScore for Participant is 0.115857605178
+
+
+Accuracy for Casualties 0.756
+Precision for Casualtie   is 0.113174337763
+Recall for Casualties  is 0.213621262458
+FScore for Casualties  is 0.147960651211
+
+
+Accuracy for  After-effects 0.146
+Precision for  After-effects is 0.0828496042216
+Recall for  After-effects is 0.218561484919
+FScore for  After-effects is 0.120153061224
+
+
+---------------------------------------------------------------------
+After 550
+Accuracy for place 0.865454545455
+Precision for Place is 0.254842153424
+Recall for Place is 0.320483314154
+FScore for Place is 0.283918103814
+
+
+Accuracy for Time 0.672727272727
+Precision for Time is 0.27677224736
+Recall for Time is 0.405300938708
+FScore for Time is 0.328926730898
+
+
+Accuracy for Reason 0.672727272727
+Precision for Reason is 0.0529554887648
+Recall for Reason is 0.149555375909
+FScore for Reason is 0.0782158334214
+
+
+Accuracy for Participant 0.0854545454545
+Precision for Participant is 0.0700457585357
+Recall for Participant is 0.346086956522
+FScore for Participant is 0.116510538642
+
+
+Accuracy for Casualties 0.756363636364
+Precision for Casualtie   is 0.113276049861
+Recall for Casualties  is 0.215073529412
+FScore for Casualties  is 0.148394768133
+
+
+Accuracy for  After-effects 0.145454545455
+Precision for  After-effects is 0.0845184227537
+Recall for  After-effects is 0.214081047892
+FScore for  After-effects is 0.121191055498
+
+
+---------------------------------------------------------------------
+After 600
+Accuracy for place 0.866666666667
+Precision for Place is 0.257818027452
+Recall for Place is 0.321737594914
+FScore for Place is 0.286252945797
+
+
+Accuracy for Time 0.666666666667
+Precision for Time is 0.281515580737
+Recall for Time is 0.400302114804
+FScore for Time is 0.330561330561
+
+
+Accuracy for Reason 0.666666666667
+Precision for Reason is 0.0517326732673
+Recall for Reason is 0.147755390597
+FScore for Reason is 0.0766339719498
+
+
+Accuracy for Participant 0.0833333333333
+Precision for Participant is 0.0742932281394
+Recall for Participant is 0.355905511811
+FScore for Participant is 0.122926298613
+
+
+Accuracy for Casualties 0.75
+Precision for Casualtie   is 0.111074294971
+Recall for Casualties  is 0.212016865777
+FScore for Casualties  is 0.145776961732
+
+
+Accuracy for  After-effects 0.148333333333
+Precision for  After-effects is 0.087636259323
+Recall for  After-effects is 0.22315558802
+FScore for  After-effects is 0.125849639547
+
+
+---------------------------------------------------------------------
+After 650
+Accuracy for place 0.864615384615
+Precision for Place is 0.259492013616
+Recall for Place is 0.326255144033
+FScore for Place is 0.289068766864
+
+
+Accuracy for Time 0.663076923077
+Precision for Time is 0.282994090611
+Recall for Time is 0.401303538175
+FScore for Time is 0.331921447824
+
+
+Accuracy for Reason 0.663076923077
+Precision for Reason is 0.0539779130043
+Recall for Reason is 0.152888605171
+FScore for Reason is 0.0797867910386
+
+
+Accuracy for Participant 0.0830769230769
+Precision for Participant is 0.0734658599827
+Recall for Participant is 0.355648535565
+FScore for Participant is 0.121776504298
+
+
+Accuracy for Casualties 0.749230769231
+Precision for Casualtie   is 0.110547114533
+Recall for Casualties  is 0.21239691059
+FScore for Casualties  is 0.145411364044
+
+
+Accuracy for  After-effects 0.147692307692
+Precision for  After-effects is 0.0863884815358
+Recall for  After-effects is 0.214356599405
+FScore for  After-effects is 0.12314709236
+
+
+---------------------------------------------------------------------
+After 700
+Accuracy for place 0.861428571429
+Precision for Place is 0.258660790794
+Recall for Place is 0.323732189367
+FScore for Place is 0.287561241154
+
+
+Accuracy for Time 0.668571428571
+Precision for Time is 0.284550392275
+Recall for Time is 0.40681622088
+FScore for Time is 0.334872159091
+
+
+Accuracy for Reason 0.668571428571
+Precision for Reason is 0.0539557441649
+Recall for Reason is 0.155730533683
+FScore for Reason is 0.0801440792436
+
+
+Accuracy for Participant 0.08
+Precision for Participant is 0.0704109589041
+Recall for Participant is 0.347297297297
+FScore for Participant is 0.11708428246
+
+
+Accuracy for Casualties 0.751428571429
+Precision for Casualtie   is 0.110675408602
+Recall for Casualties  is 0.213611043836
+FScore for Casualties  is 0.145806211642
+
+
+Accuracy for  After-effects 0.144285714286
+Precision for  After-effects is 0.0859328313613
+Recall for  After-effects is 0.210974178404
+FScore for  After-effects is 0.122123142251
+
+
+---------------------------------------------------------------------
+After 750
+Accuracy for place 0.862666666667
+Precision for Place is 0.257049769689
+Recall for Place is 0.324861564674
+FScore for Place is 0.287004515805
+
+
+Accuracy for Time 0.668
+Precision for Time is 0.285146265266
+Recall for Time is 0.405329027049
+FScore for Time is 0.33477825942
+
+
+Accuracy for Reason 0.668
+Precision for Reason is 0.0553155522164
+Recall for Reason is 0.156026490066
+FScore for Reason is 0.0816751022672
+
+
+Accuracy for Participant 0.08
+Precision for Participant is 0.0688248789192
+Recall for Participant is 0.334572490706
+FScore for Participant is 0.114164904863
+
+
+Accuracy for Casualties 0.749333333333
+Precision for Casualtie   is 0.110268275539
+Recall for Casualties  is 0.214042069358
+FScore for Casualties  is 0.145552248038
+
+
+Accuracy for  After-effects 0.144
+Precision for  After-effects is 0.0838095238095
+Recall for  After-effects is 0.206458735854
+FScore for  After-effects is 0.119222186803
+
+
+---------------------------------------------------------------------
+After 800
+Accuracy for place 0.865
+Precision for Place is 0.258712282193
+Recall for Place is 0.322644759507
+FScore for Place is 0.287163158205
+
+
+Accuracy for Time 0.6675
+Precision for Time is 0.287754562285
+Recall for Time is 0.408102025506
+FScore for Time is 0.337521327749
+
+
+Accuracy for Reason 0.6675
+Precision for Reason is 0.0554412948225
+Recall for Reason is 0.156803237228
+FScore for Reason is 0.0819184779018
+
+
+Accuracy for Participant 0.07875
+Precision for Participant is 0.0693726937269
+Recall for Participant is 0.333333333333
+FScore for Participant is 0.114844227245
+
+
+Accuracy for Casualties 0.74625
+Precision for Casualtie   is 0.108834756818
+Recall for Casualties  is 0.21261870272
+FScore for Casualties  is 0.143972971009
+
+
+Accuracy for  After-effects 0.15
+Precision for  After-effects is 0.0853470437018
+Recall for  After-effects is 0.209807886754
+FScore for  After-effects is 0.121336159637
+
+
+---------------------------------------------------------------------

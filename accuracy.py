@@ -67,51 +67,116 @@ def update_cf(cf1,cf2):
 	cf1["true_negative"]=cf1["true_negative"]+cf2["true_negative"]
 	cf1["false_negative"]=cf1["false_negative"]+cf2["false_negative"]
 
+def Contain(doc,parameter):
+	for x in doc:
+		if SubStringMatch(x[0],parameter):
+			return True
+	return False
+
 
 doc,a,b=xml_parser("/home/gaurav/apoorvanlp/data/English/Train/")
 r=createRedisConnection()
 PLACE=InitConfusionMatrix()
 TIME=InitConfusionMatrix()
 REASON=InitConfusionMatrix()
+PARTICIPANT=InitConfusionMatrix()
+CASUALTIES=InitConfusionMatrix()
+AFTER_EFFECTS=InitConfusionMatrix()
+
 count=0
 place_acc=0
 time_acc=0
 reason_acc=0
+participant_acc=0
+casualties_acc=0
+after_effects_acc=0
+
 for file,d in doc.items():
 	data = r.get(file)
 	result = json.loads(data)
 	count=count+1
-	place_temp=Parameters("PLACE","where",result,d)
-	time_temp=Parameters("TIME","when",result,d)
-	reason_temp=Parameters("REASON","why",result,d)
-	if(place_temp["true_positive"]>0):
-		place_acc=place_acc+1
-	if(time_temp["true_positive"]>0):
-		time_acc=time_acc+1
-	if(reason_temp["true_positive"]>0):
-		reason_acc=reason_acc+1
-	update_cf(PLACE,place_temp)
-	update_cf(TIME,time_temp)
-	update_cf(REASON,reason_temp)
+
+	if Contain(d,"PLACE"):
+		place_temp=Parameters("PLACE","where",result,d)
+		if(place_temp["true_positive"]>0):
+			place_acc=place_acc+1
+		update_cf(PLACE,place_temp)
+
+	if Contain(d,"TIME"):
+		time_temp=Parameters("TIME","when",result,d)
+		if(time_temp["true_positive"]>0):
+			time_acc=time_acc+1
+		update_cf(TIME,time_temp)
+
+	if Contain(d,"REASON"):
+		reason_temp=Parameters("REASON","why",result,d)
+		if(reason_temp["true_positive"]>0):
+			reason_acc=reason_acc+1
+		update_cf(REASON,reason_temp)
+
+	if Contain(d,"PARTICIPANT"):
+		participant_temp=Parameters("PARTICIPANT","who",result,d)
+		if(participant_temp["true_positive"]>0):
+			participant_acc=participant_acc+1
+		update_cf(PARTICIPANT,participant_temp)
+
+	if Contain(d,"CASUALTIES"):
+		casualties_temp=Parameters("CASUALTIES","what",result,d)
+		if(casualties_temp["true_positive"]>0):
+			casualties_acc=casualties_acc+1
+		update_cf(CASUALTIES,casualties_temp)
+
+	if Contain(d,"AFTER_EFFECTS"):
+		after_effects_temp=Parameters("AFTER_EFFECTS","what",result,d)
+		if after_effects_temp["true_positive"]>0 :
+			after_effects_acc=after_effects_acc+1
+		update_cf(AFTER_EFFECTS,after_effects_temp)
+
 
 	if count%50==0:
 		temp_place_acc=place_acc*1.0/count
 		temp_time_acc=time_acc*1.0/count
 		temp_reason_acc=time_acc*1.0/count
+		temp_participant_acc=participant_acc*1.0/count
+		temp_casualties_acc=casualties_acc*1.0/count
+		temp_after_effects_acc=after_effects_acc*1.0/count
+
 		print("After {}".format(count))
 		print("Accuracy for place {}".format(temp_place_acc))
 		print("Precision for Place is {}".format(Precision(PLACE)))
 		print("Recall for Place is {}".format(Recall(PLACE)))
 		print("FScore for Place is {}".format(FScore(PLACE)))
+		print("\n")
 		
 		print("Accuracy for Time {}".format(temp_time_acc))
 		print("Precision for Time is {}".format(Precision(TIME)))
 		print("Recall for Time is {}".format(Recall(TIME)))
 		print("FScore for Time is {}".format(FScore(TIME)))
+		print("\n")
 
 		print("Accuracy for Reason {}".format(temp_reason_acc))
 		print("Precision for Reason is {}".format(Precision(REASON)))
 		print("Recall for Reason is {}".format(Recall(REASON)))
 		print("FScore for Reason is {}".format(FScore(REASON)))
+		print("\n")
+
+		print("Accuracy for Participant {}".format(temp_participant_acc))
+		print("Precision for Participant is {}".format(Precision(PARTICIPANT)))
+		print("Recall for Participant is {}".format(Recall(PARTICIPANT)))
+		print("FScore for Participant is {}".format(FScore(PARTICIPANT)))
+		print("\n")
+
+		print("Accuracy for Casualties {}".format(temp_casualties_acc))
+		print("Precision for Casualtie   is {}".format(Precision(CASUALTIES)))
+		print("Recall for Casualties  is {}".format(Recall(CASUALTIES)))
+		print("FScore for Casualties  is {}".format(FScore(CASUALTIES)))
+		print("\n")
+
+		print("Accuracy for  After-effects {}".format(temp_after_effects_acc))
+		print("Precision for  After-effects is {}".format(Precision(AFTER_EFFECTS)))
+		print("Recall for  After-effects is {}".format(Recall(AFTER_EFFECTS)))
+		print("FScore for  After-effects is {}".format(FScore(AFTER_EFFECTS)))
+		print("\n")
+		print("---------------------------------------------------------------------")
 
 		
