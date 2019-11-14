@@ -1,4 +1,4 @@
-## Event based argument Extraction 
+## Argument Extraction and aggregation 
 
 ## Steps to run 
 
