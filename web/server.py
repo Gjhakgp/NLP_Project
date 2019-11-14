@@ -36,8 +36,8 @@ def text(ret):
     return qw
 
 def getargs(ret):
-    l = ['TIME-ARG','PLACE-ARG','CASUALTIES-ARG','REASON-ARG']
-    ls={'TIME-ARG':[],'PLACE-ARG':[],'CASUALTIES-ARG':[],'CASUALTIES-ARG':[]}
+    l = ['TIME-ARG','PLACE-ARG','CASUALTIES-ARG','REASON-ARG','PARTICIPANT-ARG']
+    ls={'TIME-ARG':[],'PLACE-ARG':[],'CASUALTIES-ARG':[],'REASON-ARG':[],'PARTICIPANT-ARG':[]}
     for x in ret:
         key=x[0]
         value=x[1]
@@ -47,10 +47,12 @@ def getargs(ret):
             ls[l[1]].append(value)
         elif(l[2] in key):
             ls[l[2]].append(value)
-        elif(l[2] in key):
+        elif(l[3] in key):
             ls[l[3]].append(value)
-    
+        elif(l[4] in key):
+            ls[l[4]].append(value)
     return ls
+
 def helper(add,filename):
     doc,a,b=xs(add)
     ret=doc[filename]
@@ -63,7 +65,7 @@ def helper(add,filename):
 @app.route('/get/data')
 def get_data():
     filename = request.args.get('filename')
-    import pdb;pdb.set_trace()
+    #import pdb;pdb.set_trace()
     all=listdir('/home/user/nlproject/data/English/Test')
     if(filename in all):
         jsonx=helper('/home/user/nlproject/data/English/Test/',filename)

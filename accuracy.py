@@ -89,7 +89,7 @@ def PrintResult(confusion_matrix,argument):
 	print("\n")
 
 
-doc,a,b=xml_parser("/home/gaurav/apoorvanlp/data/English/Train/")
+doc,a,b=xml_parser("/home/user/NLP_Project/data/English/Train/")
 r=createRedisConnection()
 PLACE=InitConfusionMatrix()
 TIME=InitConfusionMatrix()
