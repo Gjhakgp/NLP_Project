@@ -81,6 +81,13 @@ def Contain(doc,parameter):
 			return True
 	return False
 
+def PrintResult(confusion_matrix,argument):
+	print("Accuracy for {} is {}".format(argument,Accuracy(confusion_matrix)))
+	print("Precision for {} is {}".format(argument,Precision(confusion_matrix)))
+	print("Recall for {} is {}".format(argument,Recall(confusion_matrix)))
+	print("FScore for {} is {}".format(argument,FScore(confusion_matrix)))
+	print("\n")
+
 
 doc,a,b=xml_parser("/home/gaurav/apoorvanlp/data/English/Train/")
 r=createRedisConnection()
@@ -159,55 +166,21 @@ for file,d in doc.items():
 
 
 	if count%50==0:
-		temp_place_acc=place_acc*1.0/place_count
-		temp_time_acc=time_acc*1.0/time_count
-		temp_reason_acc=reason_acc*1.0/reason_count
-		temp_participant_acc=participant_acc*1.0/participant_count
-		temp_casualties_acc=casualties_acc*1.0/casualties_count
-		temp_after_effects_acc=after_effects_acc*1.0/after_effects_count
-
 		print("After {}".format(count))
-		print("Accuracy for place {}".format(temp_place_acc))
-		print("Precision for Place is {}".format(Precision(PLACE)))
-		print("Recall for Place is {}".format(Recall(PLACE)))
-		print("FScore for Place is {}".format(FScore(PLACE)))
-		print("Accuracy2 for Place is {}".format(Accuracy(PLACE)))
-		print("\n")
-		
-		print("Accuracy for Time {}".format(temp_time_acc))
-		print("Precision for Time is {}".format(Precision(TIME)))
-		print("Recall for Time is {}".format(Recall(TIME)))
-		print("FScore for Time is {}".format(FScore(TIME)))
-		print("Accuracy2 for Time is {}".format(Accuracy(TIME)))
-		print("\n")
-
-		print("Accuracy for Reason {}".format(temp_reason_acc))
-		print("Precision for Reason is {}".format(Precision(REASON)))
-		print("Recall for Reason is {}".format(Recall(REASON)))
-		print("FScore for Reason is {}".format(FScore(REASON)))
-		print("Accuracy2 for Reason is {}".format(Accuracy(REASON)))
-		print("\n")
-
-		print("Accuracy for Participant {}".format(temp_participant_acc))
-		print("Precision for Participant is {}".format(Precision(PARTICIPANT)))
-		print("Recall for Participant is {}".format(Recall(PARTICIPANT)))
-		print("FScore for Participant is {}".format(FScore(PARTICIPANT)))
-		print("Accuracy2 for Participant is {}".format(Accuracy(PARTICIPANT)))
-		print("\n")
-
-		print("Accuracy for Casualties {}".format(temp_casualties_acc))
-		print("Precision for Casualtie   is {}".format(Precision(CASUALTIES)))
-		print("Recall for Casualties  is {}".format(Recall(CASUALTIES)))
-		print("FScore for Casualties  is {}".format(FScore(CASUALTIES)))
-		print("Accuracy2 for Casualties is {}".format(Accuracy(CASUALTIES)))
-		print("\n")
-
-		print("Accuracy for  After-effects {}".format(temp_after_effects_acc))
-		print("Precision for  After-effects is {}".format(Precision(AFTER_EFFECTS)))
-		print("Recall for  After-effects is {}".format(Recall(AFTER_EFFECTS)))
-		print("FScore for  After-effects is {}".format(FScore(AFTER_EFFECTS)))
-		print("Accuracy2 for After-effects is {}".format(Accuracy(AFTER_EFFECTS)))
-		print("\n")
+		PrintResult(PLACE,"Place")
+		PrintResult(TIME,"Time")
+		PrintResult(REASON,"Reason")
+		PrintResult(PARTICIPANT,"Participant")
+		PrintResult(CASUALTIES,"Casualties")
+		PrintResult(AFTER_EFFECTS,"After-Effects")
 		print("---------------------------------------------------------------------")
+		# temp_place_acc=place_acc*1.0/place_count
+		# temp_time_acc=time_acc*1.0/time_count
+		# temp_reason_acc=reason_acc*1.0/reason_count
+		# temp_participant_acc=participant_acc*1.0/participant_count
+		# temp_casualties_acc=casualties_acc*1.0/casualties_count
+		# temp_after_effects_acc=after_effects_acc*1.0/after_effects_count
+
+		
 
 		
